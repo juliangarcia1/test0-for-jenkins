@@ -8,6 +8,8 @@ pipeline {
 		sh '''
 		    pwd
 		    ls
+		    python -v
+		    python file1.py
 		    '''
             }
         }
