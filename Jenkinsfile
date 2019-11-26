@@ -5,7 +5,10 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-		sh 'pwd;ls'
+		sh '''
+		    pwd
+		    ls
+		    '''
             }
         }
         stage('Test') {
